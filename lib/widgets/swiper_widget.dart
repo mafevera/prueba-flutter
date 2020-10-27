@@ -62,7 +62,7 @@ class MovieHorizontal extends StatelessWidget {
                   placeholder: AssetImage('assets/img/no-image.jpg'),
                   fit: BoxFit.cover,
 
-                  height: 160,
+                  height: 100,
                 ),
               ),
             ),
@@ -74,7 +74,7 @@ class MovieHorizontal extends StatelessWidget {
             ),
 
             RatingBar(
-              itemSize: 15,
+              itemSize: 12,
    initialRating: pelicula.voteAverage,
    minRating: 1,
    direction: Axis.horizontal,

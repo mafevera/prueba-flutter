@@ -224,10 +224,13 @@ Widget _datos(String tipo, String dato) {
           '$tipo: ',
           style: TextStyle(
               color: Colors.white, height: 2, fontWeight: FontWeight.bold),
+          overflow: TextOverflow.ellipsis,
+
         ),
         Text(
           '$dato',
           style: TextStyle(color: Colors.white70, height: 2),
+          overflow: TextOverflow.ellipsis,
         ),
       ],
     ),

@@ -62,7 +62,7 @@ class _PeliculasContainer extends StatelessWidget {
         ],
       ),
       
-      height: size.height * 0.70,
+      height: size.height * 0.75,
       width: double.infinity,
       decoration: BoxDecoration(
           color: Theme.of(context).primaryColorDark,
@@ -85,7 +85,7 @@ class _Encabezado extends StatelessWidget {
         Text('Hello, what do you want to watch?',
             style: TextStyle(
                 color: Colors.white,
-                fontSize: 35,
+                fontSize: 25,
                 fontWeight: FontWeight.bold)),
         _BuscarInput()
       ],
